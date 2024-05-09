@@ -6,7 +6,7 @@ export const useCounter = (initialState = 1) => {
   // const suma = (factor = 1) => {
   //   setState(state + factor);
   // };
-  //Se utiliza en el MultipleCustomHooks
+  //* Se utiliza en el MultipleCustomHooks
   const suma = () => {
     setState(state + 1);
   };

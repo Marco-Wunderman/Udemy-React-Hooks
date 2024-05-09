@@ -15,8 +15,9 @@ import { MainApp } from "./components/09-useContext/MainApp";
 // import CounterWithCustomHook from "./components/01-useState/CounterWithCustomHook";
 // import SimpleForm from "./components/02-useEffect/SimpleForm";
 // import HooksApp from "./HooksApp";
-
-ReactDOM.render(< MainApp />, document.getElementById("root"));
+// import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
+import { MultipleCustomHooksNew } from "./components/03-examples/MultipleCustomHooksNew";
+ReactDOM.render(<MultipleCustomHooksNew />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
